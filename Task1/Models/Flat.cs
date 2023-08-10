@@ -11,6 +11,11 @@ public class Flat
     public int Number { get; init; }
 
     /// <summary>
+    /// Этаж квартиры.
+    /// </summary>
+    public Floor Floor { get; init; }
+
+    /// <summary>
     /// Позиция квартиры на лестничной площадке.
     /// </summary>
     public ApartmentPosition Position { get; set; }

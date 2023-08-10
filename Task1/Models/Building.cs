@@ -13,5 +13,5 @@ public class Building
     /// <summary>
     /// Список подъездов в доме.
     /// </summary>
-    public List<Entrance> Entrances { get; } = new List<Entrance>();
+    public List<Entrance> Entrances { get; init; }
 }

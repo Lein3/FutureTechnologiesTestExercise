@@ -11,7 +11,12 @@ public class Entrance
     public int Number { get; init; }
 
     /// <summary>
+    /// Зданиие, в котором расположен подъезд.
+    /// </summary>
+    public Building Building { get; init; }
+
+    /// <summary>
     /// Список этажей в подъезде.
     /// </summary>
-    public List<Floor> Floors { get; } = new List<Floor>();
+    public List<Floor> Floors { get; init; }
 }
