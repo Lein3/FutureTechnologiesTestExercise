@@ -1,8 +1,17 @@
 ﻿namespace Task1.Models;
 
-internal class Flat
+/// <summary>
+/// Класс, представляющий информацию о квартире.
+/// </summary>
+public class Flat
 {
+    /// <summary>
+    /// Номер квартиры.
+    /// </summary>
     public int Number { get; init; }
 
+    /// <summary>
+    /// Позиция квартиры на лестничной площадке.
+    /// </summary>
     public ApartmentPosition Position { get; set; }
 }

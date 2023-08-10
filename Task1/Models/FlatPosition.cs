@@ -1,6 +1,9 @@
 ﻿namespace Task1.Models;
 
-enum ApartmentPosition
+/// <summary>
+/// Перечисление, представляющее позицию квартиры на лестничной площадке.
+/// </summary>
+public enum ApartmentPosition
 {
     LeftNear,
     LeftFar,
