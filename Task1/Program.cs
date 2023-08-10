@@ -1,4 +1,5 @@
-﻿Console.WriteLine("Введите количество подъездов");
+﻿//просьба не насиловать консоль
+Console.WriteLine("Введите количество подъездов");
 var entrancesAmount = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Введите количество этажей");
 int floorsAmount = Convert.ToInt32(Console.ReadLine());
