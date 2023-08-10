@@ -19,4 +19,11 @@ public class Flat
     /// Позиция квартиры на лестничной площадке.
     /// </summary>
     public ApartmentPosition Position { get; set; }
+
+    public Flat(int number, Floor floor, ApartmentPosition position)
+    {
+        Number = number;
+        Floor = floor;
+        Position = position;
+    }
 }

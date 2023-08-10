@@ -19,4 +19,11 @@ public class Floor
     /// Список квартир на этаже.
     /// </summary>
     public List<Flat> Flats { get; init; } 
+
+    public Floor(int number, Entrance entrance)
+    {
+        Number = number;
+        Entrance = entrance;
+        Flats = new List<Flat>();
+    }
 }

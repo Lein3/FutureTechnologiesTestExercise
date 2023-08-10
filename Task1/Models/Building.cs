@@ -14,4 +14,10 @@ public class Building
     /// Список подъездов в доме.
     /// </summary>
     public List<Entrance> Entrances { get; init; }
+
+    public Building(int number)
+    {
+        Number = number;
+        Entrances = new List<Entrance>();
+    }
 }
