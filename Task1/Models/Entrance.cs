@@ -13,7 +13,7 @@ public class Entrance
     /// <summary>
     /// Зданиие, в котором расположен подъезд.
     /// </summary>
-    public Building Building { get; init; }
+    public House House { get; init; }
 
     /// <summary>
     /// Список этажей в подъезде.
@@ -21,9 +21,10 @@ public class Entrance
     public List<Floor> Floors { get; init; }
 
     public Entrance(int number, Building building)
+    public Entrance(int number, House house)
     {
         Number = number;
-        Building = building;
+        House = house;
         Floors = new List<Floor>();
     }
 }
