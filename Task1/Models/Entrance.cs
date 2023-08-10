@@ -20,7 +20,11 @@ public class Entrance
     /// </summary>
     public List<Floor> Floors { get; init; }
 
-    public Entrance(int number, Building building)
+    /// <summary>
+    /// Инициализирует новый экземпляр класса Entrance с указанным номером дома и зданием.
+    /// </summary>
+    /// <param name="number">Номер подъезда.</param>
+    /// <param name="house">Здание, в котором расположен подъезд.</param>
     public Entrance(int number, House house)
     {
         Number = number;

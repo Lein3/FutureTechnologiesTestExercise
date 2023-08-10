@@ -18,8 +18,13 @@ public class Floor
     /// <summary>
     /// Список квартир на этаже.
     /// </summary>
-    public List<Flat> Flats { get; init; } 
+    public List<Flat> Flats { get; init; }
 
+    /// <summary>
+    /// Инициализирует новый экземпляр класса Floor с указанными параметрами.
+    /// </summary>
+    /// <param name="number">Номер этажа.</param>
+    /// <param name="entrance">Подъезд, в котором расположен этаж.</param>
     public Floor(int number, Entrance entrance)
     {
         Number = number;
